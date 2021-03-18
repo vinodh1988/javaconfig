@@ -68,5 +68,6 @@
 	<classpathentry kind="lib" path="F:/required libraries/spring-framework-4.1.6.RELEASE/libs/spring-websocket-4.1.6.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="F:/required libraries/org-apache-commons-logging.jar"/>
 	<classpathentry kind="lib" path="F:/required libraries/slf4j.jar"/>
+	<classpathentry kind="lib" path="F:/required libraries/javax.annotation.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
