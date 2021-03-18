@@ -10,7 +10,14 @@ public class MainSpring {
 	 ApplicationContext ac=new AnnotationConfigApplicationContext(JavaConfig.class);
 	 com.system.Process p=(com.system.Process)ac.getBean("back");
 	 p.task();
+	 System.out.println(p.hashCode());
+	 p=(com.system.Process)ac.getBean("back");
+	 System.out.println(p.hashCode());
+	 
 	 p=(com.system.Process)ac.getBean("ui");
 	 p.task();
+	 System.out.println(p.hashCode());
+	 p=(com.system.Process)ac.getBean("ui");
+	 System.out.println(p.hashCode());
     }
 }
