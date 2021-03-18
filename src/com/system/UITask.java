@@ -3,6 +3,9 @@ package com.system;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class UITask implements Process {
+	{
+		System.out.println("UI Task is instantiated");
+	}
 @Autowired
   SubTask st;
 	@Override

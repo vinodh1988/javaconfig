@@ -4,6 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class BackgroundTask implements Process {
 
+	{
+		System.out.println("BT is instantiated");
+	}
 	@Autowired
 	   SubTask bt;
 	@Autowired

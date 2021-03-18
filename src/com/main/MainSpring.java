@@ -13,11 +13,11 @@ public class MainSpring {
 	 System.out.println(p.hashCode());
 	 p=(com.system.Process)ac.getBean("back");
 	 System.out.println(p.hashCode());
-	 
+	 /*
 	 p=(com.system.Process)ac.getBean("ui");
 	 p.task();
 	 System.out.println(p.hashCode());
 	 p=(com.system.Process)ac.getBean("ui");
-	 System.out.println(p.hashCode());
+	 System.out.println(p.hashCode());*/
     }
 }

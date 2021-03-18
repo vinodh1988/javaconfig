@@ -20,7 +20,7 @@ public class JavaConfig {
 	}
 	
 	@Bean(name="ui")
-	@Scope("prototype")
+	
 	public com.system.Process getUI() {
 		return new UITask();
 	}
