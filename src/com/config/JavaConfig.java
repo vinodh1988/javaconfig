@@ -9,7 +9,7 @@ import com.system.BackgroundTask;
 import com.system.UITask;
 
 @Configuration
-@ComponentScan(basePackages="com.system")
+@ComponentScan(basePackages={"com.system","com.config"})
 public class JavaConfig {
 
 	 
